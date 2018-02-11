@@ -7,7 +7,7 @@
   "author": "Kaelig Deloumeau-Prigent",
   "license": "MIT",
   "config": {
-    "palettename": "Human-friendly palette name"
+    "palettename": "Material Design"
   },
   "scripts": {
     "clean": "rimraf ./dist",
