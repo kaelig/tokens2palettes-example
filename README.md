@@ -4,15 +4,15 @@ This is an example showing how to transform [Design tokens](https://medium.com/e
 
 ### `.sketchpalette`: Sketch (with the [sketch-palettes plugin](https://github.com/andrewfiorillo/sketch-palettes))
 
-![ ](https://kaelig.github.io/tokens2palettes-example/images/sketchpalette.png)
+<img src="https://kaelig.github.io/tokens2palettes-example/images/sketchpalette.png" alt="" width="300" />
 
 ### `.ase`: Adobe Swatch Exchange (Photoshop, Illustrator…)
 
-![ ](https://kaelig.github.io/tokens2palettes-example/images/adobeswatchexchange.png)
+<img src="https://kaelig.github.io/tokens2palettes-example/images/adobeswatchexchange.png" alt="" width="300" />
 
 ### `.clr`: macOS color palette
 
-![ ](https://kaelig.github.io/tokens2palettes-example/images/macOS-clr.png)
+<img src="https://kaelig.github.io/tokens2palettes-example/images/macOS-clr.png" alt="" width="300" />
 
 ---
 
