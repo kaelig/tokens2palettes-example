@@ -2,9 +2,17 @@
 
 This is an example showing how to transform [Design tokens](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421) into color palettes usable by designers:
 
-* `.ase`: Adobe Swatch Exchange (Photoshop, Illustrator…)
-* `.clr`: macOS color palette
-* `.sketchpalette`: Sketch (with the [sketch-palettes plugin](https://github.com/andrewfiorillo/sketch-palettes))
+### `.sketchpalette`: Sketch (with the [sketch-palettes plugin](https://github.com/andrewfiorillo/sketch-palettes))
+
+![ ](https://kaelig.github.io/tokens2palettes-example/images/sketchpalette.png)
+
+### `.ase`: Adobe Swatch Exchange (Photoshop, Illustrator…)
+
+![ ](https://kaelig.github.io/tokens2palettes-example/images/adobeswatchexchange.png)
+
+### `.clr`: macOS color palette
+
+![ ](https://kaelig.github.io/tokens2palettes-example/images/macOS-clr.png)
 
 ---
 
