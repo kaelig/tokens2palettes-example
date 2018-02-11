@@ -52,7 +52,7 @@ Follow these steps to generate palettes with your own colors:
    yarn dist
    ```
 
-5. That’s it! Color palettes are in the `./dist` folder.
+5. That’s it! Color palettes are in the [`./dist`](https://github.com/kaelig/tokens2palettes-example/tree/master/dist) folder.
 
 ## How does it work?
 
