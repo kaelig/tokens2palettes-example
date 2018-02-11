@@ -1,0 +1,14 @@
+# Build output folders
+# Uncomment the following line to disable versioning of the ./dist folder
+# dist
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# macOS metadata
+.DS_Store

@@ -1,0 +1,37 @@
+{
+  "name": "tokens2palettes-example",
+  "version": "1.0.0",
+  "description": "Export design tokens to multiple color palette formats",
+  "main": "index.js",
+  "repository": "https://github.com/kaelig/tokens2palettes-example",
+  "author": "Kaelig Deloumeau-Prigent",
+  "license": "MIT",
+  "config": {
+    "palettename": "Human-friendly palette name"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "predist": "yarn clean",
+    "dist": "npm-run-all dist:**",
+    "dist:ase":
+      "theo ./tokens/colors.yml --format ase,sketchpalette --setup ./theo.setup.js --dest ./dist",
+    "dist:clr": "ase2clr ./dist/colors.ase ./dist/colors.clr",
+    "dist:rename-palettes":
+      "renamer --find colors --replace \"$npm_package_config_palettename\" ./dist/colors.{ase,clr,sketchpalette}",
+    "pretty": "prettier --write '**/*.{js,json,md}'",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "ase-util": "^1.0.1",
+    "ase-utils": "^0.1.1",
+    "husky": "^0.14.3",
+    "lodash": "^4.17.5",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.10.2",
+    "pretty-quick": "^1.4.1",
+    "renamer": "^0.6.1",
+    "rimraf": "^2.6.2",
+    "theo": "^6.0.0",
+    "tinycolor2": "^1.4.1"
+  }
+}
